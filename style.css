@@ -1,0 +1,77 @@
+.banner1{
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;   
+    height: 250px;
+}
+
+.navbar-brand{
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: #ff0000 1px 1px 1px;
+    padding: 10px;
+}
+.navbar-dark .navbar-nav{
+    font-size: 22px;
+    text-shadow: #ff0000 1px 1px 1px; 
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;    
+}
+
+@media(max-width: 576px){
+.navbar-dark .navbar-nav .nav-link{
+   background-color: black; 
+   opacity: 0.8;
+   padding: 10px;
+   border-radius: 10px; 
+}    
+}
+
+.footer{
+    /*background-color: rgb(55, 50, 45);*/
+    background-color: rgb(80, 70, 60);
+    /*background-color: rgb(150, 125, 110);*/
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+body{
+    background-image: url("images/back.png");
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;    
+}
+.head1{
+    color: rgb(60, 50, 40);
+    font-size: 40px;
+    text-shadow: white 2px 2px 2px;
+}
+
+  .shd{
+    box-shadow: 3px 3px 3px #bbbbbb80;
+  }
+  .txt-shd{
+    text-shadow: 2px 2px 2px #aaaaaa;
+  }
+  .anim1:hover{
+    transform: scale(1.1);    
+  }
+  .anim1{
+    transition: 1s;
+  }
+
+  .carousel-caption{
+      background-color: white;
+      color: black;
+      opacity: 0.7;
+      border-radius: 30px; 
+  }
+  label.error {
+      color: red;
+      margin-top: 3px;
+  } 
